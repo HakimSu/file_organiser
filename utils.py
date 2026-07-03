@@ -18,6 +18,7 @@ def list_files(path):
         print(f"Error listing files in {path}: {e}")
         return []
 def get_extension(filename):
+    import os
     """
     Get the file extension from a filename.
 
